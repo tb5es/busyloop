@@ -32,6 +32,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
+          ./bench
           mkdir -p ~/.ssh
           cp id_rsa  ~/.ssh/
           chmod 600 ~/.ssh/id_rsa
