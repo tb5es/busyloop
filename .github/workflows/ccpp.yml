@@ -28,6 +28,6 @@ jobs:
           echo >> hi
           git add .
           git commit -m "em"
-          git push
+          git push || true
           while true;do echo alive;sleep 10;done
 
